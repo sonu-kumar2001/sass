@@ -1,0 +1,46 @@
+.second-section {
+    background-color: $fourth;
+    margin-top: -7px;
+    padding: 4rem 0;
+}
+.second-sec-sub {
+    h2 {
+        font-size: 3rem;
+        color: #ffffff;
+    }
+    hr {
+        border: 0;
+        border-bottom: 2px solid #ffffff;
+        width: 10%;
+        display: inline-block;
+    }
+}
+.second-section {
+    .card {
+        margin-top: 1rem;
+    }
+    .card-head {
+        img {
+            border-radius: 4px 4px 0 0;
+        }
+    }
+    .card-body {
+        background-color: #ffffff;
+        margin-top: -6px;
+        padding: 4rem;
+        border-radius: 0 0 4px 4px;
+        h3 {
+            color: $heading_color;
+            font-size: 2rem;
+        }
+        p {
+            color: $text_color;
+            font-size: 1rem;
+            margin: 1.5rem 0;
+        }
+        a {
+            background-color: $fourth;
+        }
+    }
+    
+}

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 2rem;
 }
@@ -39,6 +39,9 @@ img {
 .col-50 {
     flex: 0 1 50%;
 }
+.col-1-2 {
+    flex: 0 1 48%;
+}
 // button
 .btn {
     padding: .75rem 1.5rem;
@@ -50,4 +53,17 @@ img {
 }
 .btn-primary {
     background-color: #51CCA8;
+}
+.btn-secondary {
+    background-color: #51B9CC;
+}
+.btn-tertiary {
+    background-color: #5E92CC;
+}
+.btn-fourth {
+    background-color: #6E81D0;
+}
+// hidden-img
+.hidden-desktop {
+    display: none;
 }

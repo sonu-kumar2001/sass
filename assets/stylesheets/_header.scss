@@ -4,7 +4,12 @@
     left: 0;
     right: 0;
 }
-
+.toggle {
+    display: none;
+}
+label {
+    display: none;
+}
 .logo {
     h2 {
         text-transform: uppercase;

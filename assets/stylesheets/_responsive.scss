@@ -1,0 +1,74 @@
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+    .hero {
+        padding: 0 2rem;
+    }
+    .flex {
+        flex-wrap: wrap;
+    }
+    .col-100 {
+        flex: 0 1 100%;
+    }
+    .column {
+        flex-direction: column;
+    }
+    .hidden {
+        display: none;
+    }
+    .hidden-desktop {
+        display: block;
+    }
+    .inner-second {
+        padding: 0;
+    }
+    // mobile-sec
+    .mob-first {
+        padding: 2rem 0;
+        .card {
+            box-shadow: 0 0 4px 0px rgba(71, 71, 71, 0.438);
+            margin-bottom: 2rem;
+        }
+        .card-body {
+            padding: 2rem;
+            p {
+                padding: 1rem 0;
+            }
+        }
+    }
+     /* hamburger-menu */
+     .nav {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        padding-top: 120px;
+    }
+    .logo {
+        position: relative;
+        z-index: 1;
+    }
+    label {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        color: #ffffff;
+        font-size: 32px;
+    }
+    .toggle:checked ~ label .fa-bars:before {
+        content: "\f00d";
+    }
+    .toggle:checked ~ .nav {
+        display: inline-block;
+    }
+    .direction-col {
+        flex-direction: column;
+    }
+    .list-item {
+        margin: 16px 0;
+    }
+}
