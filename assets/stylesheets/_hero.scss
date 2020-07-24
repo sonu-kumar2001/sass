@@ -1,0 +1,32 @@
+.hero {
+    background: linear-gradient(#1e2731ca,#1e2731ca),url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .container {
+       text-align: center;
+       padding: 240px 0;
+       h1 {
+           color: #ffffff;
+           font-size: 3rem;
+           font-weight: 400;
+       }
+       hr {
+           border: 0;
+           border-bottom: 4px solid #ffffff;
+           width: 10%;
+           display: inline-block;
+           text-align: center;
+           margin-top: 1rem;
+       }
+       p {
+           font-size: 1.5rem;
+           color: white;
+           margin: 2rem 0;
+       }
+       a {
+           border: 2px solid #ffffff;
+           padding: 1rem 3rem;
+           font-weight: 600;
+       }
+    }
+}

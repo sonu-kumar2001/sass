@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.col-60 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 60%;
+          flex: 0 1 60%;
+}
+
+.col-40 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
+}
+
+.col-50 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+
+.btn {
+  padding: .75rem 1.5rem;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #51CCA8;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.75rem;
+}
+
+.header {
+  padding: 2rem 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.logo h2 {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.logo strong {
+  font-weight: 600;
+}
+
+.list-item {
+  margin-left: 2rem;
+}
+
+.list-item a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1e2731ca), to(#1e2731ca)), url(../images/banner.jpg) no-repeat;
+  background: linear-gradient(#1e2731ca, #1e2731ca), url(../images/banner.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero .container {
+  text-align: center;
+  padding: 240px 0;
+}
+
+.hero .container h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.hero .container hr {
+  border: 0;
+  border-bottom: 4px solid #ffffff;
+  width: 10%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.hero .container p {
+  font-size: 1.5rem;
+  color: white;
+  margin: 2rem 0;
+}
+
+.hero .container a {
+  border: 2px solid #ffffff;
+  padding: 1rem 3rem;
+  font-weight: 600;
+}
+
+.first-sub .col-60 {
+  background-color: #51CCA8;
+  height: 506.96px;
+}
+
+.first-sec, .second-sec, .third-sec {
+  position: relative;
+}
+
+.inner-sub {
+  position: absolute;
+  top: 70px;
+  z-index: 2;
+  left: 0;
+  right: 0;
+}
+
+.inner-first h2 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.inner-second {
+  background-color: #ffffff;
+  padding: 2rem 4rem;
+  border-radius: 4px;
+}
+
+.inner-second h2 {
+  color: #555;
+  font-size: 2rem;
+}
+
+.inner-second p {
+  color: #888;
+  margin: 2rem 0;
+}
+
+.second-sec {
+  margin-top: -6px;
+}
+
+.second-sec .inner-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-sec .first-sub .col-60 {
+  background-color: #51B9CC;
+}
+
+.second-sec .inner-second a {
+  background-color: #51B9CC;
+}
+
+.third-sec {
+  margin-top: -6px;
+}
+
+.third-sec .first-sub .col-60 {
+  background-color: #5E92CC;
+}
+
+.third-sec .inner-second a {
+  background-color: #5E92CC;
+}
+/*# sourceMappingURL=main.css.map */
